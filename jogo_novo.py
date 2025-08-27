@@ -10,7 +10,7 @@ TITLE = "Coin Quest Climber"
 # --- Game Constants ---
 GRAVITY = 0.3
 PLAYER_SPEED = 3
-JUMP_STRENGTH = -10  # Salto ajustado
+JUMP_STRENGTH = -10  
 
 # --- Global Variables ---
 game_state = 'menu'
@@ -111,7 +111,7 @@ def setup_level():
     enemies.clear()
     coins.clear()
 
-    # Plataformas ajustadas para corresponder aos pisos visuais (verde/marrom)
+    # Plataformas para corresponder aos pisos visuais (verde/marrom)
     level_layout = [
         (0, HEIGHT - 20, WIDTH, 20),           # chão
         (100, 480, 220, 20),                   # plataforma 1
